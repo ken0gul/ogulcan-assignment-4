@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>student-master-list.csv</name>
-			<type>1</type>
-			<location>/home/john/Downloads/student-master-list.csv</location>
-		</link>
-	</linkedResources>
 </projectDescription>
