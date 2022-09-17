@@ -15,7 +15,6 @@ public class Main {
 
 		try (BufferedReader reader = new BufferedReader(new FileReader("student-master-list.csv"))) {
 			String currentLine = null;
-			Student student = null;
 
 			List<Student> compSciStudents = new ArrayList<Student>();
 			List<Student> statStudents = new ArrayList<Student>();
@@ -87,7 +86,7 @@ public class Main {
 	}
 	
 	
-	// Return desired output each time the method is called
+	// Return the desired output when this method is called
 
 	public static String getOutput(Student student) throws IOException {
 
