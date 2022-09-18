@@ -43,7 +43,6 @@ public class Student implements Comparator<Student> {
 
 	@Override
 	public int compare(Student o1, Student o2) {
-		// TODO Auto-generated method stub
 		// Descending order
 		if(o1.grade == o2.grade) {
 			return 0;
