@@ -32,6 +32,11 @@ public class Student implements Comparator<Student> {
 	public int getGrade() {
 		return grade;
 	}
+	
+	
+	public static Student getStudent(int studentId, String studentName, String courseName, int grade) {
+		return new Student(studentId, studentName, courseName, grade);
+	}
 
 	@Override
 	public String toString() {
