@@ -8,6 +8,10 @@ public class Student implements Comparator<Student> {
 	private String studentName;
 	private String courseName;
 	private int grade;
+	
+	public Student() {
+		super();
+	}
 
 	public Student(int studentId, String studentName, String courseName, int grade) {
 		super();
